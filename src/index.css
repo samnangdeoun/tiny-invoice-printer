@@ -1,7 +1,20 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.moul-regular {
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-khmer-regular {
+  font-family: "Noto Sans Khmer", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
 @layer base {
   :root {

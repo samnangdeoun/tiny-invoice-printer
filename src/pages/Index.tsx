@@ -8,17 +8,17 @@ import { InvoiceData } from '@/types/invoice';
 
 const Index = () => {
   const [invoice, setInvoice] = useState<InvoiceData>({
-    businessName: 'Your Business Name',
-    businessAddress: '123 Business St',
-    businessPhone: '(123) 456-7890',
-    invoiceNumber: '001',
-    date: new Date().toISOString().split('T')[0],
-    customerName: 'Customer Name',
-    items: [{ description: 'Item 1', price: 10.00, quantity: 1 }],
+    businessName: "WS We Sale",
+    businessAddress: "",
+    businessPhone: "(+855) 81 686 916",
+    invoiceNumber: "WS-2025-001",
+    date: new Date().toISOString().split("T")[0],
+    customerName: "DEOUN Samnang",
+    items: [{ description: "Item 1", price: 10.0, quantity: 1 }],
     taxRate: 0,
     taxAmount: 0,
-    subtotal: 10.00,
-    total: 10.00,
+    subtotal: 10.0,
+    total: 10.0,
   });
 
   const handleUpdateInvoice = (updatedInvoice: InvoiceData) => {
